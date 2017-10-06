@@ -1,0 +1,112 @@
+
+body,html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+/*--------BODY---------*/
+
+#main-navigation{
+    background-color: transparent !important;
+    border: none !important;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 999;
+}
+
+#main-navigation ul li a{
+    margin: 5px 0;
+    color: #fff !important;
+    font-size: 14px;
+}
+
+#header-container .btn-signup{
+    background: #e9f400;
+    padding: 5px 10px;
+    margin: 15px 10px;
+    border-radius: 3px;
+    color: #5B4336 !important;
+    font-size: 15px;
+}
+
+#main-navigation .navbar-brand{
+    padding: 20px 15px !important;
+    margin: 0 !important;
+}
+
+.header-banner{
+    /*background: rgba(0,0,0,0.7);*/
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.header-banner .overlay{
+    /*background: rgba(0,0,0,0.7);*/
+    background: rgba(15, 42, 70, 0.3);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header-banner .banner-content{
+    z-index: 2;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    top: 20%;
+}
+
+
+.content-wrapper{
+    min-height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+.footer-wrapper{
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+}
+
+/*------OVERRIDE------*/
+
+
+
+/*.loader-container{
+    text-align: center;
+    padding-top:10px 20px;
+}
+
+.loader-container .loader {
+    border: 8px solid #b9d5e8;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+    margin-top: 20px !important;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}*/
