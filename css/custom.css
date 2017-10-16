@@ -120,6 +120,22 @@ input{
     padding-left:80px !important;
 }
 
+.padding-bottom-50{
+    padding-bottom: 50px !important;
+}
+
+.padding-bottom-100{
+    padding-bottom: 100px !important;
+}
+
+.padding-top-50{
+    padding-top: 50px !important;
+}
+
+.padding-top-100{
+    padding-top: 100px !important;
+}
+
 .margin-0-10{
     margin: 0 10px !important; 
 }
@@ -134,6 +150,14 @@ input{
 
 .no-margin-top{
     margin-top: 0 !important;
+}
+
+.margin-bottom-10{
+    margin-bottom: 10px !important;
+}
+
+.margin-bottom-15{
+    margin-bottom: 15px !important;
 }
 
 .margin-bottom-20{
@@ -192,6 +216,10 @@ input{
     height: 5px;
 }
 
+.white-space-8{
+    height: 8px;
+}
+
 .white-space-10{
     height: 10px;
 }
@@ -206,6 +234,10 @@ input{
 
 .white-space-50{
     height: 50px;
+}
+
+.white-space-80{
+    height: 80px;
 }
 
 .white-space-100{
@@ -232,6 +264,14 @@ input{
     color: #999 !important;
 }
 
+.color-black-custom{
+    color: #343434 !important;
+}
+
+.color-blue-custom{
+    color: #73B4CF !important;
+}
+
 .color-black{
     color: #000 !important;
 }
@@ -248,8 +288,20 @@ input{
     color: #FFF !important;
 }
 
+.color-white2{
+    color: #ccc1c1 !important;
+}
+
+.color-yellow{
+    color: #E9F400 !important;
+}
+
 .bg-white{
     background-color: #FFF !important;
+}
+
+.bg-white2{
+    background-color: #F6F8F8 !important;
 }
 
 .bg-yellow{
@@ -262,6 +314,10 @@ input{
 
 .bg-black{
     background-color: #323336 !important;
+}
+
+.bg-gray{
+    background-color: #ECEEF1 !important;
 }
 
 .text-italic{
@@ -288,6 +344,10 @@ input{
     border-bottom: 1px solid #ccc;
 }
 
+.font-100{
+    font-size: 100px !important;
+}
+
 .font-80{
     font-size: 80px !important;
 }
@@ -310,6 +370,10 @@ input{
 
 .font-35{
     font-size: 35px !important;
+}
+
+.font-32{
+    font-size: 32px !important;
 }
 
 .font-30{
@@ -399,4 +463,16 @@ input{
 
 .text-error{
     color: red;
+}
+
+.line-bottom-white{
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.line-bottom-white2{
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.line-bottom-white3{
+    border-bottom: 1px solid #ccc1c1;
 }
